@@ -1,0 +1,96 @@
+{
+ "student": "Wenfei Wang",
+ "team": "youxiao",
+ "slug": "wenfei-wang",
+ "sources": [
+  {
+   "id": "main",
+   "repo": "https://github.com/Youxiao26/eastd143a-team-Youxiao",
+   "remote": "upstream",
+   "branch": "Wenfei",
+   "sha": "6c1854e562ecf64290e712c6ea92f4db405d1e7b",
+   "date": "2026-10-07T15:32:13Z"
+  }
+ ],
+ "owned": [
+  {
+   "source_id": "main",
+   "path": "Claude outputs/How Minzhong Deeds Speak.pdf"
+  },
+  {
+   "source_id": "main",
+   "path": "Claude outputs/minzhong-deeds-structure.html"
+  },
+  {
+   "source_id": "main",
+   "path": "Claude outputs/minzhong_deeds_tables.xlsx"
+  },
+  {
+   "source_id": "main",
+   "path": "wenfei.md"
+  }
+ ],
+ "files": [
+  {
+   "path": ".github/workflows/pages.yml",
+   "category": "GENERATED"
+  },
+  {
+   "path": ".nojekyll",
+   "category": "GENERATED"
+  },
+  {
+   "path": "Claude outputs/How Minzhong Deeds Speak.pdf",
+   "category": "RETAINED",
+   "source_id": "main",
+   "source_path": "Claude outputs/How Minzhong Deeds Speak.pdf",
+   "edits": []
+  },
+  {
+   "path": "Claude outputs/minzhong-deeds-structure.html",
+   "category": "RETAINED",
+   "source_id": "main",
+   "source_path": "Claude outputs/minzhong-deeds-structure.html",
+   "edits": [
+    "f"
+   ],
+   "note": "§5.2 (f): <meta charset=\"utf-8\"> added as the first line"
+  },
+  {
+   "path": "Claude outputs/minzhong_deeds_tables.xlsx",
+   "category": "RETAINED",
+   "source_id": "main",
+   "source_path": "Claude outputs/minzhong_deeds_tables.xlsx",
+   "edits": []
+  },
+  {
+   "path": "Dockerfile",
+   "category": "GENERATED"
+  },
+  {
+   "path": "MANIFEST.json",
+   "category": "GENERATED"
+  },
+  {
+   "path": "README.md",
+   "category": "GENERATED"
+  },
+  {
+   "path": "index.html",
+   "category": "GENERATED",
+   "note": "redirect to 'Claude outputs/minzhong-deeds-structure.html' (§5.2 b: folder name kept)"
+  },
+  {
+   "path": "serve.sh",
+   "category": "GENERATED"
+  }
+ ],
+ "excluded": [
+  {
+   "source_id": "main",
+   "source_path": "wenfei.md",
+   "reason": "intro-one-liner"
+  }
+ ],
+ "scans": []
+}
